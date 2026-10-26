@@ -46,4 +46,14 @@ Controles principales de 44px o más; foco visible azul; estados con texto y ari
 6. Móvil: navegación inferior de cuatro destinos y menú Más con diálogo nativo.
 
 ## Decisiones y límites
-La consulta de UI-UX devolvió también recomendaciones de tipografía infantil y composición promocional; se descartan por no ajustarse a una app C1 adulta. La dirección elegida por el usuario prevalece sobre la paleta anterior y sobre sugerencias automáticas. No se añaden fotos ni efectos decorativos que compitan con el estudio. Los 108 ejercicios, las 70 fichas, los PDF y los límites del feedback siguen vigentes.
+La consulta de UI-UX devolvió también recomendaciones de tipografía infantil y composición promocional; se descartan por no ajustarse a una app C1 adulta. La dirección elegida por el usuario prevalece sobre la paleta anterior y sobre sugerencias automáticas. No se añaden fotos ni efectos decorativos que compitan con el estudio. Los ejercicios originales, las 70 fichas, los PDF y los límites del feedback siguen vigentes.
+
+## Actualización: Origins y English thinking
+- Nombre de la unidad: Origins, solicitado por el usuario.
+- Guías: ocho lecciones y 33 secciones; contenido, significados, reglas y explicaciones en inglés. Español solo bajo demanda con botones ES y popovers nativos que se cierran con Cerrar, Escape o pulsando fuera.
+- Método: Read → notice → use; explicar la idea en inglés antes de consultar la traducción.
+- Teoría: objetivos, índice de secciones, párrafos, listas ordenadas, reglas destacadas, ejemplos explicados y tablas comparativas. En móvil, las tablas se presentan como fichas verticales para evitar cortes laterales.
+- Práctica: 156 preguntas. Banco de fichas, espacios de destino, conversación con varios huecos, completar palabras/formas y frases, selección de 3/4 opciones y corrección de errores.
+- Alternativa al arrastre: seleccionar ficha y destino con pulsación o teclado. El foco se conserva al colocar/devolver fichas.
+- Reloj por pregunta opcional: sin tiempo por defecto, 45/90/180 segundos; se puede pausar o quitar. El vencimiento muestra la explicación, conserva la respuesta parcial y registra un solo intento pendiente de repaso.
+- Se conserva la identidad visual académica moderna y el esquema de progreso existente.

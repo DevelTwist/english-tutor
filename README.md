@@ -1,11 +1,13 @@
-# English Tutor · Unit 1
+# English Tutor · Origins · Unit 1
 
 Plataforma personal de estudio de inglés C1, nivel 11. HTML, CSS y JavaScript, con la dirección visual académica moderna: blanco, azul tinta y celeste.
 
 ## Contenido
 
-- Guía de estudio en ocho bloques.
-- 108 ejercicios con corrección explicada: elegir, completar, corregir errores, ordenar y clasificar.
+- Guía de Origins: ocho lecciones y 33 secciones en inglés, con definiciones en inglés y ayudas en español bajo botones ES.
+- 156 ejercicios: selección de 3/4 opciones, completar palabras y tiempos verbales, frases y conversaciones, arrastrar a huecos, ordenar, corregir errores y clasificar.
+- Feedback por espacio y reloj opcional de 45/90/180 segundos, con pausa y opción de quitar el tiempo.
+- Alternativa al arrastre con pulsaciones o teclado; fichas de teoría legibles en móvil.
 - 70 fichas de vocabulario con significado, ejemplo y síntesis de voz opcional.
 - Repaso de errores, taller de escritura y speaking, plan semanal y material PDF.
 - Progreso y borradores en localStorage; exportación/importación del progreso.
@@ -43,7 +45,8 @@ La autenticación de ChatGPT de la versión alojada en Sites pertenece a aquel h
 
 ```text
 dist/               App y recursos publicables
-qa.cjs              Verificaciones de contenido, rutas y progreso
+dist/theory.js      Teoría en inglés y ayudas opcionales en español
+qa.cjs              Verificaciones de contenido, ejercicios, tiempo y progreso
 vercel.json         Configuración de despliegue
 BRIEF-VISUAL.md     Dirección y tokens visuales
 QA.md               Registro de comprobaciones

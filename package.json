@@ -2,10 +2,10 @@
   "name": "english-tutor",
   "version": "1.0.0",
   "private": true,
-  "description": "Personal C1 English study app \u2014 Unit 1",
+  "description": "Origins \u00b7 Unit 1 \u2014 interactive C1 English study app",
   "scripts": {
     "dev": "python3 -m http.server 4173 --directory dist",
     "test": "node qa.cjs",
-    "build": "node --check dist/app.js && node qa.cjs"
+    "build": "node --check dist/app.js && node --check dist/theory.js && node qa.cjs"
   }
 }

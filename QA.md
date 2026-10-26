@@ -41,3 +41,12 @@ Cambio visual elegido por el usuario. Paleta blanca, azul tinta y celeste; encab
 | Campo: borde | #7e94b1 / #ffffff | 3.11:1 |
 
 Revisión visual del tema académico: inicio a 1440px, guía a 768px y práctica a 390px. En las tres vistas, documento y main midieron 0px de desbordamiento horizontal. Se conservan foco, navegación móvil, estados y reduced-motion. Fuente local y diez pares de contraste comprobados.
+
+## Origins: ejercicios y guías bilingües
+- `node qa.cjs`: 156 claves, 70 fichas, 8 guías y 33 secciones con traducción; comprobación de todos los tipos, filtros, feedback por hueco, recuperación de errores, fichas repetidas, intercambio de destinos, pausa, vencimiento sin doble puntuación y limpieza del reloj al navegar.
+- Navegador Chrome: arrastre real de inherited al primer hueco; colocación de las otras fichas y resultado correcto con feedback de los tres espacios. Alternativa de teclado Enter y pulsación verificadas con el ejercicio de tiempos continuos.
+- Conversación: primer hueco correcto y segundo incorrecto; mensajes específicos, conservación de las respuestas al activar/pausar/quitar tiempo y registro en repaso.
+- Guías: definición de first name y demás significados visibles en inglés; botón ES abre el contenido español, Cerrar y Escape lo ocultan. Los popovers están ocultos al entrar.
+- Revisión visual a 1440, 768 y 390 px: documento sin desbordamiento horizontal. En 390 px se sustituyen las tablas teóricas por fichas verticales con significado y ejemplo completos.
+- Reglas Web Interface Guidelines descargadas y aplicadas a lo tocado: controles con etiqueta, botones semánticos, alternativa al arrastre, foco visible, feedback con aria-live, encabezados y ayudas identificadas.
+- Límite: no se ha realizado una certificación completa con todas las tecnologías de asistencia ni todas las combinaciones de navegador. Las grabaciones oficiales siguen sin estar disponibles.
