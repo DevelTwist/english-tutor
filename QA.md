@@ -50,3 +50,13 @@ Revisión visual del tema académico: inicio a 1440px, guía a 768px y práctica
 - Revisión visual a 1440, 768 y 390 px: documento sin desbordamiento horizontal. En 390 px se sustituyen las tablas teóricas por fichas verticales con significado y ejemplo completos.
 - Reglas Web Interface Guidelines descargadas y aplicadas a lo tocado: controles con etiqueta, botones semánticos, alternativa al arrastre, foco visible, feedback con aria-live, encabezados y ayudas identificadas.
 - Límite: no se ha realizado una certificación completa con todas las tecnologías de asistencia ni todas las combinaciones de navegador. Las grabaciones oficiales siguen sin estar disponibles.
+
+## Unidades 2 y 3 · 2026-11-23
+
+- Build y suite original correctos. La unidad 1 conserva 156 ejercicios y 70 fichas.
+- Suite nueva correcta para 67 preguntas de Opinions y 63 de Places, con seis bloques por unidad, respuestas, rutas, tareas y existencia de los cuatro PDF.
+- Verificada la conservación del progreso y borradores de Origins y el almacenamiento independiente de Opinions y Places.
+- Chrome real: selector 2/3/1/2, navegación a guía, práctica, vocabulario, taller, biblioteca, repaso y plan. Resolución correcta mediante formulario de gap, choice, error, order, dialogue y drag en ambas unidades.
+- Vistas de 1440, 768 y 390 px sin desbordamiento horizontal en inicio, guía, práctica, vocabulario y taller. Sin errores JavaScript en navegador. Capturas revisadas en escritorio y móvil.
+- Revisión de los controles nuevos según Web Interface Guidelines: label y name en selector, control nativo accesible, foco heredado visible y tamaño táctil de 44 px. PDF enlazados y contenido renderizado como texto escapado.
+- Límite: los audios y vídeos oficiales no están incluidos. El taller conserva la revisión orientativa mediante reglas locales.

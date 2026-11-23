@@ -57,3 +57,7 @@ La consulta de UI-UX devolvió también recomendaciones de tipografía infantil 
 - Alternativa al arrastre: seleccionar ficha y destino con pulsación o teclado. El foco se conserva al colocar/devolver fichas.
 - Reloj por pregunta opcional: sin tiempo por defecto, 45/90/180 segundos; se puede pausar o quitar. El vencimiento muestra la explicación, conserva la respuesta parcial y registra un solo intento pendiente de repaso.
 - Se conserva la identidad visual académica moderna y el esquema de progreso existente.
+
+## Unidades 2 y 3 · 2026-11-23
+
+Se amplía la app con Opinions y Places dentro de la dirección académica moderna. El selector de unidad ocupa la barra superior y una fila completa en móvil. Las guías reutilizan el lector, las tablas y las ayudas ES existentes. El dashboard muestra los conteos reales de la unidad activa. Cada unidad dispone de su propio banco, vocabulario, biblioteca y taller. La separación del progreso usa claves de almacenamiento por unidad y mantiene la clave histórica de Origins.

@@ -1,8 +1,20 @@
-# English Tutor · Origins · Unit 1
+# English Tutor · Units 1–3
 
 Plataforma personal de estudio de inglés C1, nivel 11. HTML, CSS y JavaScript, con la dirección visual académica moderna: blanco, azul tinta y celeste.
 
-## Contenido
+## Unidades disponibles
+
+El selector superior cambia entre Origins (unidad 1), Opinions (unidad 2) y Places (unidad 3). Se puede enlazar directamente con `?unit=2#guide` y `?unit=3#practice`.
+
+- Unidad 2: 6 bloques, 67 preguntas, 25 fichas, ensayo discursivo, speaking y PDF.
+- Unidad 3: 6 bloques, 63 preguntas, 30 fichas, guía de viaje, propuesta documental, speaking y PDF.
+- Cada unidad tiene teoría en inglés, ayudas ES, recursos completos y plan de estudio.
+- El progreso y los borradores se guardan por unidad. La unidad 1 conserva la clave original. Las copias exportadas identifican la unidad y la importación comprueba que coincida.
+- `dist/courses.js` contiene los materiales nuevos y `qa-units.cjs` verifica sus claves, rutas, recursos y separación del progreso.
+
+Los materiales proceden de `level-11/unit-02/` y `level-11/unit-03/` del proyecto de estudio. Los ejercicios interactivos son originales y adaptados. Las grabaciones y vídeos oficiales no están alojados. La cobertura exacta y los guiones disponibles se documentan en Biblioteca.
+
+## Contenido de Origins
 
 - Guía de Origins: ocho lecciones y 33 secciones en inglés, con definiciones en inglés y ayudas en español bajo botones ES.
 - 156 ejercicios: selección de 3/4 opciones, completar palabras y tiempos verbales, frases y conversaciones, arrastrar a huecos, ordenar, corregir errores y clasificar.
