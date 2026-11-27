@@ -1,13 +1,14 @@
-# English Tutor · Units 1–3
+# English Tutor · Units 1–4
 
 Plataforma personal de estudio de inglés C1, nivel 11. HTML, CSS y JavaScript, con la dirección visual académica moderna: blanco, azul tinta y celeste.
 
 ## Unidades disponibles
 
-El selector superior cambia entre Origins (unidad 1), Opinions (unidad 2) y Places (unidad 3). Se puede enlazar directamente con `?unit=2#guide` y `?unit=3#practice`.
+El selector superior cambia entre Origins (unidad 1), Opinions (unidad 2), Places (unidad 3) y Justice (unidad 4). Se puede enlazar directamente con `?unit=2#guide` y `?unit=3#practice`.
 
 - Unidad 2: 6 bloques, 67 preguntas, 25 fichas, ensayo discursivo, speaking y PDF.
 - Unidad 3: 6 bloques, 63 preguntas, 30 fichas, guía de viaje, propuesta documental, speaking y PDF.
+- Unidad 4: 6 bloques, 64 preguntas, 30 fichas, un ensayo de problema y solución, un artículo corto, speaking y dos PDF.
 - Cada unidad tiene teoría en inglés, ayudas ES, recursos completos y plan de estudio.
 - El progreso y los borradores se guardan por unidad. La unidad 1 conserva la clave original. Las copias exportadas identifican la unidad y la importación comprueba que coincida.
 - `dist/courses.js` contiene los materiales nuevos y `qa-units.cjs` verifica sus claves, rutas, recursos y separación del progreso.

@@ -2,10 +2,10 @@
   "name": "english-tutor",
   "version": "1.0.0",
   "private": true,
-  "description": "Interactive C1 English study app \u00b7 Origins, Opinions and Places",
+  "description": "Interactive C1 English study app \u00b7 Origins, Opinions, Places and Justice",
   "scripts": {
     "dev": "python3 -m http.server 4173 --directory dist",
     "test": "node qa.cjs && node qa-units.cjs",
-    "build": "node --check dist/app.js && node --check dist/theory.js && node --check dist/courses.js && node qa.cjs && node qa-units.cjs"
+    "build": "node --check dist/app.js && node --check dist/theory.js && node --check dist/courses.js && node --check dist/course-04.js && node qa.cjs && node qa-units.cjs"
   }
 }

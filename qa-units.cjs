@@ -25,14 +25,14 @@ function createContext(unit, saved = {}) {
     setTimeout() {return 1;}, clearTimeout() {}, setInterval() {return 1;}, clearInterval() {}, console
   };
   vm.createContext(context);
-  for (const file of ['data.js', 'theory.js', 'courses.js', 'app.js']) {
+  for (const file of ['data.js', 'theory.js', 'courses.js', 'course-04.js', 'app.js']) {
     vm.runInContext(fs.readFileSync('dist/' + file, 'utf8'), context);
   }
   return {context, elements, saved, run: code => vm.runInContext(code, context)};
 }
 
 const saved = {'english-studio-v1': JSON.stringify({answers: {}, read: ['start'], known: [0], drafts: {profile: 'My original draft'}, checks: {}})};
-for (const unit of [2,3]) {
+for (const unit of [2, 3, 4]) {
   const {run, context, elements} = createContext(unit, saved);
   const data = run('D');
   assert.equal(data.number, unit);
@@ -78,6 +78,7 @@ for (const unit of [2,3]) {
 assert.equal(JSON.parse(saved['english-studio-v1']).drafts.profile, 'My original draft');
 assert.equal(JSON.parse(saved['english-studio-unit-2-v1']).drafts.test, 'Unit 2 draft');
 assert.equal(JSON.parse(saved['english-studio-unit-3-v1']).drafts.test, 'Unit 3 draft');
+assert.equal(createContext(4, saved).run('state.drafts.test'), 'Unit 4 draft');
 assert.equal(createContext(2, saved).run('state.drafts.test'), 'Unit 2 draft');
 assert.equal(createContext(1, saved).run('state.drafts.profile'), 'My original draft');
-console.log('PASS: original unit 1 progress and drafts preserved; unit 2/3 saves isolated and restored.');
+console.log('PASS: original unit 1 progress and drafts preserved; unit 2–4 saves isolated and restored.');
